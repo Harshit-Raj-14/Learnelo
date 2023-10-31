@@ -1,0 +1,111 @@
+.navbar {
+    text-align: left;
+    background-color: #E6E7E8
+}
+
+.navbar-brand {
+    margin-left: 50px;
+}
+
+.nav-logo {
+    width: 230px;
+    margin: 0px;
+}
+
+.navbar-link {
+    float: right;
+    font-size: 15px;
+    color: white;
+    margin-top: 50px;
+    margin-right: -30px;
+}
+
+.main-heading {
+    margin-top: 40px;
+}
+
+.current-features {
+    margin-top: 40px;
+}
+
+.current-features-list {
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+/* SERVICES SECTION */
+
+:root {
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color: #0ef;
+}
+
+
+.hia {
+    color: var(--main-color);
+}
+
+.services h2 {
+    margin-bottom: 2rem;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.services-container .services-box {
+    flex: 1 1 2rem;
+    background: var(--second-bg-color);
+    padding: 1rem 1rem 1rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: 0.2rem solid var(--bg-color);
+    transition: 0.5s ease;
+    margin: 20px;
+}
+
+.services-container .services-box:hover {
+    border-color: var(--main-color);
+    transform: scale(1.02);
+}
+
+.services-box i {
+    font-size: 4rem;
+    color: var(--main-color);
+}
+
+.services-box h3 {
+    font-size: 1.6rem;
+}
+
+.services-box p {
+    font-size: 1.2rem;
+    margin: 1rem 0 3rem;
+}
+
+.services-btn {
+    margin-bottom: 1rem;
+}
+
+
+
+.heading {
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.jaldi{
+    color: #fff;
+}

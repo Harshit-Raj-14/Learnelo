@@ -1,0 +1,100 @@
+<%- include("./partials/header.ejs") %>
+    </head>
+
+    <body>
+        <div class="navbar">
+            <span class="navbar-brand"><img class="nav-logo" alt="Learnelo logo"
+                    src="assets/learnelo_logo.png" />
+            </span>
+            <h2>Weoclome, User <span class="tabhi hona" style="cursor: pointer;">Logout</span></h2>
+        </div>
+        <div class="container">
+            <div class="">
+                <div class="">
+                    <div class="form-wrap">
+                        <h1 class="headingwa">Your Online Study Room</h1>
+                        <div class="tabs">
+                            <h3 class="signup-tab tabhi"><a class="active" href="#signup-tab-content">CREATE</a></h3>
+                            <h3 class="login-tab tabhi"><a href="#login-tab-content">JOIN</a></h3>
+                        </div>
+                        <div class="tabs-content">
+
+                            <div id="signup-tab-content" class="active">
+                                <form class="signup-form" action="/create" method="POST">
+                                    <input class="usernameInput input" id="user_email" name="name" type="text"
+                                        placeholder="Your name" autocomplete="off" required>
+                                    <input name="code" type="text" class="input" id="user_name" value="<%=id%>"
+                                        readonly>
+                                    <input type="submit" class="button" value="Create  A  Study  Room">
+                                </form>
+                            </div>
+
+                            <div id="login-tab-content">
+                                <form class="login-form" action="/join" method="POST">
+                                    <input class="usernameInput input" id="user_login" type="text" name="name"
+                                        placeholder="Your name" autocomplete="off" required>
+                                    <input type="text" class="input" id="user_pass" name="code"
+                                        placeholder="Enter room code" autocomplete="off" required>
+                                    <input type="submit" class="button" value="Join  A  Study  Room">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- NICE  SECTION -->
+
+        <section class="services" id="services">
+            <h2 class="heading">What can <span class="hia">Learnelo</span> do for you? 🧐</h2>
+    
+            <div class="services-container">
+                <div class="services-box">
+                    <i class="fa-solid fa-video"></i>
+                    <br>
+                    <h3 class="jaldi">Real-time video calling between teachers and students</h3>
+                </div>
+
+                <div class="services-box">
+                    <i class="fa-regular fa-comments"></i>
+                    <br>
+                    <h3 class="jaldi">Real-time chat talk between teachers and students</h3>
+                </div>
+                
+                <div class="services-box">
+                    <i class="fa-solid fa-chalkboard-user"></i>
+                    <br>
+                    <h3 class="jaldi">Real-time collaborative Whiteboard for online teaching</h3>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+        <script>
+            jQuery(document).ready(function ($) {
+                tab = $('.tabs h3 a');
+
+                tab.on('click', function (event) {
+                    event.preventDefault();
+                    tab.removeClass('active');
+                    $(this).addClass('active');
+
+                    tab_content = $(this).attr('href');
+                    $('div[id$="tab-content"]').removeClass('active');
+                    $(tab_content).addClass('active');
+                });
+            });
+        </script>
+        <!-- <h3><%=id%></h3> -->
+    </body>
+
+    </html>
