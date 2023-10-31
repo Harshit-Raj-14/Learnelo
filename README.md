@@ -42,4 +42,20 @@ Learnelo has an inbuilt whiteboard where both student and teacher and discuss an
 8 Run the website
 > You can now use the website on localhost:3000
 
-Website Snapshots:
+# Website Snapshots:
+## Learnelo SignIn page
+![learnelo](https://github.com/Harshit-Raj-14/Learnelo/assets/98808802/ad71248b-63bc-4632-875e-fe0636ebd404)
+
+## Learnelo - Hanko SignIn Authentication
+
+
+## Learnelo Frontend - Room Creation
+![Learnelo](https://github.com/Harshit-Raj-14/Learnelo/assets/98808802/84a05c97-c5d6-494e-bcb3-96e96b8a4f8a)
+
+## Learnelo Video Chat Room
+![Untitled design(1)](https://github.com/Harshit-Raj-14/Learnelo/assets/98808802/cd0f50ab-1b34-453a-8533-2cc41ef21704)
+
+## Learnelo Collaborative Whiteboard
+![learnelo](https://github.com/Harshit-Raj-14/Learnelo/assets/98808802/90e758dd-99a0-489d-9140-691ff7e15eba)
+
+# THANK YOU
