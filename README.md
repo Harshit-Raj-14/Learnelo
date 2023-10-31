@@ -47,7 +47,7 @@ Learnelo has an inbuilt whiteboard where both student and teacher and discuss an
 ![learnelo](https://github.com/Harshit-Raj-14/Learnelo/assets/98808802/ad71248b-63bc-4632-875e-fe0636ebd404)
 
 ## Learnelo - Hanko SignIn Authentication
-
+![learnelo](https://github.com/Harshit-Raj-14/Learnelo/assets/98808802/ae395959-0c36-4cd4-b268-9f0c65024226)
 
 ## Learnelo Frontend - Room Creation
 ![Learnelo](https://github.com/Harshit-Raj-14/Learnelo/assets/98808802/84a05c97-c5d6-494e-bcb3-96e96b8a4f8a)
