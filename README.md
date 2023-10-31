@@ -18,15 +18,24 @@ Learnelo has an inbuilt whiteboard where both student and teacher and discuss an
 # HOW TO RUN
 1 Clone/Download this repo
 
-2 Go to the frontend folder
-> cd frontend
+2 Go to the backend folder
+> cd Learnelo---backend-main
 
 3 Install Dependencies
 > npm install
 
+4 Run the backend
+> npm run start
 
-2 Run the following commands
+5 Come out of the backend folder and go to the frontend folder
+> cd Learnelo---frontend-main
 
+6 Install Dependencies
 > npm install
-> 
+
+7 Run the Frontend
+>npm run dev
+
+8 Run the website
+>You can now use the website on localhost:3000
 > npm run build
