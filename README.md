@@ -30,12 +30,15 @@ Learnelo has an inbuilt whiteboard where both student and teacher and discuss an
 5 Come out of the backend folder and go to the frontend folder
 > cd Learnelo---frontend-main
 
+6 Make a .env file in frontend folder. Get the API URL from Hanko console and add it to .env.local file.
+> NEXT_PUBLIC_HANKO_API_URL=hanko_api_url
+
 6 Install Dependencies
 > npm install
 
 7 Run the Frontend
->npm run dev
+> npm run dev
 
 8 Run the website
->You can now use the website on localhost:3000
+> You can now use the website on localhost:3000
 > npm run build
