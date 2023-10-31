@@ -41,4 +41,5 @@ Learnelo has an inbuilt whiteboard where both student and teacher and discuss an
 
 8 Run the website
 > You can now use the website on localhost:3000
-> npm run build
+
+Website Snapshots:
