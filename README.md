@@ -1,5 +1,3 @@
-# Hanko Hackathon
-
 ## Learnelo
 #### Bringing Education Home Through Virtual Classrooms 
 
