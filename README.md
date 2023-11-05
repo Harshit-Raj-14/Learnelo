@@ -27,6 +27,10 @@ Learnelo has an inbuilt whiteboard where both student and teacher and discuss an
 4 Run the backend
 > npm run start
 
+Backend listens on localhost:3000
+
+Hence both of the projects cna also run independently.
+
 5 Come out of the backend folder and go to the frontend folder
 > cd Learnelo---frontend-main
 
